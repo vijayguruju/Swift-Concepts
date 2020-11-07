@@ -15,7 +15,7 @@ var news:Array<Int> = Array()
  NSArray is objective C elememt it is referece type, whereas Array is Swift type it bridges  to Attay<AnyObject>.
  */
 
-var arra = Array(repeating: "bls", count: 4) + Array(repeating: "mlala", count: 3)
+var arra = Array(repeating: "bls", count: 9) + Array(repeating: "mlala", count: 3)
 
 print(arra)
 print(arra[4])

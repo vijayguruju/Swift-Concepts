@@ -8,6 +8,8 @@ case 4:
     print("case 4 execution")
     fallthrough
 case 5:
+    print("fallthrough executing 1")
+case 6:
     print("fallthrough executing")
     
 default:

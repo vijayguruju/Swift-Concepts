@@ -7,7 +7,7 @@ left <<= right
 print(left)
 
 // Bitwise NOT
-var invertedNum : UInt8 = 1
+var invertedNum : UInt8 = 0
 invertedNum = ~invertedNum
 // 00000001 <- 11111110
 print(invertedNum)
@@ -85,7 +85,7 @@ print(x)
 
 // Unary Operator
 // * & + - ! ~ ++expr --expr
-
+print(!true)
 // Binary Operator
 // & ^ | && ||
 x = x ^ 2
@@ -93,6 +93,8 @@ print(x)
 
 // Ternary Operator
 // ?:
+let value = (5 > 10) ? "Value larger" : "Value Smaller"
+print(value)
 
 // Assignment Operator
 // = += -= *= /= %= >>= <<= &= ^= |=

@@ -14,6 +14,8 @@ print(newStudents)
 // Typealias for built-in types
 typealias NameType = String
 var studenName:NameType = "Santosh"
+let studenName2:NameType = "Vijay"
+print(studenName2)
 
 // Typealias for complex types
 typealias CompletionHandler = (Int)->(String)
@@ -25,8 +27,5 @@ typealiasClosure(onComp:{ val in
     print(val)
     return "returning some value to caller"
 })
-
-
-
 
 

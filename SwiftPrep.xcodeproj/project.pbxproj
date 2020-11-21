@@ -33,6 +33,7 @@
 		AAF8449D25398329000246FE /* Expressions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Expressions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAF8449E2539BE03000246FE /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAF8449F2539DCC7000246FE /* Typealias.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Typealias.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		CA9C6F1A2567E3E100B0DD8E /* HigherOrderFunctions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = HigherOrderFunctions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		CAB64C7D255660C8006F9184 /* Pattern.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Pattern.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -67,6 +68,7 @@
 				AAAD18132530703D00911B85 /* Factorial.playground */,
 				209EADC425301017005B3F7D /* Pallindrome.playground */,
 				CAB64C7D255660C8006F9184 /* Pattern.playground */,
+				CA9C6F1A2567E3E100B0DD8E /* HigherOrderFunctions.playground */,
 			);
 			sourceTree = "<group>";
 		};

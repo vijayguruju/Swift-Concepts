@@ -1,5 +1,6 @@
 import UIKit
 
+
 //Pattern creation using loops
 
 let rows = 5
@@ -18,4 +19,4 @@ for i in 1...5 {
     }
     print("we are less than 3")
 }
-print("The end")
+print("The end") 

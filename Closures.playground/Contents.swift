@@ -11,31 +11,43 @@ let sampleClosure :(String) -> (String) = { value in
 let closureReturn = sampleClosure("damn this is how you call external closure")
 print(closureReturn)
 
-// Closure as an argument of a function
-func someFunction(msg str:String, someClosure: (String) -> (String)) -> Void
-{
-    let getReturnValue = someClosure("adada")
-    print(getReturnValue)
-    print ("function executing")
-}
-
-// Calling a function with closure in it
-someFunction(msg: "sample msg", someClosure: {
-    value in
-    for i in 1...10
-    {
-        print(i, value, separator: "->", terminator: "\n")
-    }
+//closure inside function
+func sampleFunction(sampleClosure: @autoclosure () -> ()) {
+    print("this is function")
+    sampleClosure()
     
-    return "someClosure return value"
-})
-
-// Tailing closure
-someFunction(msg:"sample msg"){ value in
-    print("Tailing closure", value)
-    
-    return "tailing closure return"
 }
+sampleFunction(sampleClosure:
+    print("This is closure")
+)
+
+//// Closure as an argument of a function
+//func someFunction(msg:String, someClosure: (String) -> (String))
+//{
+//    let getReturnValue = someClosure("adada")
+//    print(getReturnVa\lue)
+//    print ("function executing")
+//}
+//
+//// Calling a function with closure in it
+//someFunction(msg: "sample msg", someClosure: {
+////    value in
+////    for i in 1...10
+////    {
+////        print(i, value, separator: "->", terminator: "")
+////    }
+//
+//    return "someClosure return value"
+//})
+
+
+
+//// Tailing closure
+//someFunction(msg:"sample msg"){ value in
+//    print("Tailing closure", value)
+//
+//    return "tailing closure return"
+//}
 
 // Auto Closure
 
@@ -104,3 +116,14 @@ var comClosure = completionClosure {
     print("this completion call back is called")
 }
 print(comClosure)
+
+// Vijay
+
+let newClouser: (String) -> (String) = { value in
+    print(value)
+    return "hhhi"
+}
+
+let myValue = newClouser("jhbjsb")
+print(myValue)
+
